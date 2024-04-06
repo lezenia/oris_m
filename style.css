@@ -1441,9 +1441,10 @@ footer {
 }
 .barcode {
   display: none;
-  width: 3px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
   background-color: #666;
+  margin: 5px;
 }
 @media screen and (max-width: 767px) {
   .menu {
