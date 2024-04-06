@@ -1457,6 +1457,8 @@ footer {
   }
   .img-slide .text-box {
     margin-left: 30%;
+    margin-top: 35%;
+    scale: 0.7;
   }
   .img-slide img {
     opacity: 0.3;
@@ -1464,9 +1466,13 @@ footer {
   .preview {
     width: 0;
   }
+  .clock-menu::before {
+    top: -35%;
+  }
   .clock-menu {
     display: flex;
     width: 100%;
+    margin-top: 230px;
     position: relative;
   }
   .clock-menu > li:not(.c-01) {
