@@ -1426,19 +1426,6 @@ footer {
 .menu-toggle :nth-child(2) {
   margin: 5px 0;
 }
-.plus-menu {
-  display: none;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-.plus-more {
-  color: #ccc;
-  font-size: 14px;
-  margin-top: 10px;
-  font-weight: 900;
-  transition: 0.3s;
-}
 .barcode {
   display: none;
   width: 10px;
@@ -1480,31 +1467,6 @@ footer {
   }
   .images {
     overflow-x: auto;
-  }
-  .plus-menu {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    transition: 0.3s;
-    cursor: pointer;
-    transform: translateY(-100%);
-  }
-  .plus-menu i {
-    color: #ccc;
-    font-size: 30px;
-    transition: 0.3s;
-  }
-  .plus-menu .plus-icon:hover i {
-    color: #000;
-    transition: 0.3s;
-  }
-  .plus-menu .plus-icon:hover div {
-    color: #000;
-    transition: 0.3s;
   }
   .story .left {
     display: none;
