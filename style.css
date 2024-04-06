@@ -1439,6 +1439,12 @@ footer {
   font-weight: 900;
   transition: 0.3s;
 }
+.barcode {
+  display: none;
+  width: 3px;
+  height: 40px;
+  background-color: #666;
+}
 @media screen and (max-width: 767px) {
   .menu {
     display: none;
@@ -1546,8 +1552,6 @@ footer {
   }
   .letter-wrap {
     flex-direction: column;
-    /* display: block; */
-    /* justify-content: center; */
   }
   .letter-box {
     width: 100%;
@@ -1557,10 +1561,14 @@ footer {
     margin-right: auto;
   }
   .e-mail-box {
-    width: 200px;
+    width: 60%;
   }
   .logos {
     margin: 0 auto;
+    width: 100%;
+  }
+  .logo-box {
+    scale: 0.7;
   }
   .low > ul {
     flex-direction: column;
@@ -1586,6 +1594,9 @@ footer {
   }
   .other li {
     line-height: 20px;
+  }
+  .barcode {
+    display: block;
   }
 }
 /* ------- */
