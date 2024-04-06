@@ -1431,7 +1431,6 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -500px;
 }
 .plus-more {
   color: #ccc;
@@ -1472,8 +1471,6 @@ footer {
   .plus-menu {
     width: 100px;
     height: 100px;
-    bottom: -50%;
-    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1481,6 +1478,7 @@ footer {
     text-align: center;
     transition: 0.3s;
     cursor: pointer;
+    transform: translateY(-100%);
   }
   .plus-menu i {
     color: #ccc;
