@@ -739,12 +739,13 @@ p {
 
 ul#carousel-menu {
   padding: 0;
-  /*   margin: 0; */
+  margin: 0;
   margin-top: -80px;
   -moz-perspective: 780px;
   -webkit-perspective: 780px;
   perspective: 780px;
   background-color: transparent;
+  display: flex;
 }
 
 ul#carousel-menu li a {
@@ -760,6 +761,7 @@ ul#carousel-menu li {
   width: 516px;
   height: 336px;
   margin-right: -70px;
+  margin: 0 auto;
   -moz-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
