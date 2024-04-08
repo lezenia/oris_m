@@ -975,8 +975,8 @@ ul#carousel-menu li:after {
   transition: 0.3s;
 }
 .news-image {
-  width: 350px;
-  height: 450px;
+  max-width: 350px;
+  max-height: 450px;
 }
 .img {
   width: 350px;
@@ -1568,6 +1568,28 @@ footer {
   }
   .barcode {
     display: block;
+  }
+}
+/* ------- */
+
+/* 반응형(타블렛) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .circle {
+    scale: 0.7;
+    border-radius: 60px;
+  }
+  .news-images {
+    width: 90%;
+  }
+  .news-images ul li:nth-child(3) {
+    display: none;
+  }
+  .service-bg .left-box {
+    width: 90%;
+  }
+  .service-box {
+    width: 90%;
+    margin-bottom: 100px;
   }
 }
 /* ------- */
