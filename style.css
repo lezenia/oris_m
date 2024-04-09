@@ -1485,11 +1485,16 @@ footer {
   ul#carousel-menu li {
     width: 258px;
     height: 168px;
-    margin-left: -90px;
+    margin: 0 auto;
+  }
+  ul#carousel-menu li:nth-child(1) {
+    display: none;
   }
   ul#carousel-menu li:nth-child(2) {
-    /* width: 387px; */
-    /* height: 252px; */
+    scale: 1.2;
+  }
+  ul#carousel-menu li:nth-child(3) {
+    display: none;
   }
   .sub-box {
     width: 80%;
